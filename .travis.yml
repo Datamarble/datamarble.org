@@ -6,7 +6,7 @@ script:
 deploy:
   provider: script
   skip_cleanup: true
-  script: python website.py deploy --no-freeze --push --show
+  script: python website.py deploy --no-freeze --push --show-git-push-stderr
   on:
     branch: main
     repo: datamarble/datamarble.github.io

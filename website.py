@@ -4,7 +4,7 @@ app = Flask('website')
 
 @app.route('/')
 def index():
-    return '<html><body>Hello Travis!</body></html>'
+    return '<html><body>Hello Docs!</body></html>'
 
 if __name__ == '__main__':
     from elsa import cli

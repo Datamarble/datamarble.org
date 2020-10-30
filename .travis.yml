@@ -9,7 +9,7 @@ deploy:
   script: python website.py deploy --no-freeze --push
   on:
     branch: master
-    repo: datamarble/datamarble.github.io.git
+    repo: datamarble/datamarble.github.io
 env:
   global:
     secure: o5uYcYnfMjgY0ydG2dPXIhPaXGWk7YJ8levxj0mziFg2UsL3LwtktRVMnHHSO8xGHP00BoulaoQ1EQ9vcClfzulhjbQjlYvJFqcmUzdKH4Wur3xFHtYTTXqJytn0R45Un2Yecn2GVgkRlYgl98jNVqZapBoaXzZ05JV+04koagkDNRYa9TJecE5tXpis1m8vNqPF68Mx2L/hjdtvKyN0U+Su7F6XdJ7m+fAc29QLma4beUqHSmKFkI/sepKb6ehQArQ+bliH4I8YDYL+iDJOQs2rpyUHvOI1SxvtZj3x84Ok2V4uin5ZTzWNZL1f5HfABZOMtxIaYGnLeHL5Gf0j7L700dzIaEh4Lln1OLk7NFXG4Uor/ZjdNxUc055lDMR7LyVXrlDsmV8H7rbcaHGznX9IUGsxp3wOXh7Axb7QX4wBbhrrnrAmLcGuEMNB9D/SsmfNusir23xgSpG0tCwI9+sbXxPJFTIaQ0aDdGukd+FYTK20R2VgZ0nTyHDgXokmzdXZ6e1DSQsxUun0Alep6Yb4MsgVu7vg6Pefi6M8qB1TwJYJC9p9ysoIp1aez+eHR+x96R9T4acEFseKkNitdozWlDfiAEzCournsUgcY59INS1yUU5XJgjHORHP36P9GZ+gEnMdReRX2u6qbHt5i/Yiyvhb1+azi3As+Y+JpFU=

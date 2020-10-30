@@ -8,7 +8,7 @@ deploy:
   skip_cleanup: true
   script: python website.py deploy --no-freeze --push
   on:
-    branch: master
+    branch: main
     repo: datamarble/datamarble.github.io
 env:
   global:
